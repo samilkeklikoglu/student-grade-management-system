@@ -27,7 +27,7 @@ class Student:
 
 # Test etmek için ufak bir kod bloğu
 if __name__ == "__main__":
-    test_student = Student("101", "Şamil Keklikoğlu")
+    test_student = Student("101", "Ahmet Yılmaz")
     test_student.add_grade("Math", 85)
     test_student.add_grade("Physics", 90)
     

@@ -1,18 +1,18 @@
 {
-    "101": {
-        "Student ID": "101",
-        "Name": "Ahmet Yılmaz",
+    "123": {
+        "Student ID": "123",
+        "Name": "şamil keklikoğlu",
         "Grades": {
-            "Advanced Python": 95.0
+            "mat": 70.0
         },
-        "GPA": 95.0
+        "GPA": 70.0
     },
-    "102": {
-        "Student ID": "102",
-        "Name": "Ayşe Demir",
+    "234": {
+        "Student ID": "234",
+        "Name": "elif uysal",
         "Grades": {
-            "Advanced Python": 88.0
+            "fizik": 100.0
         },
-        "GPA": 88.0
+        "GPA": 100.0
     }
 }
