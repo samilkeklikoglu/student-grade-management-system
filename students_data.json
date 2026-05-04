@@ -1,0 +1,18 @@
+{
+    "101": {
+        "Student ID": "101",
+        "Name": "Ahmet Yılmaz",
+        "Grades": {
+            "Advanced Python": 95.0
+        },
+        "GPA": 95.0
+    },
+    "102": {
+        "Student ID": "102",
+        "Name": "Ayşe Demir",
+        "Grades": {
+            "Advanced Python": 88.0
+        },
+        "GPA": 88.0
+    }
+}
