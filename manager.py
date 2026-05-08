@@ -45,6 +45,14 @@ class GradeManager:
                     self.students[s_id] = student
             print("Sistem mesajı: Önceki kayıtlar başarıyla yüklendi.")
 
+    def delete_student(self, student_id):
+        """Öğrenciyi sistemden ve JSON dosyasından kalıcı olarak siler."""
+        if student_id in self.students:
+            del self.students[student_id] # Sözlükten çıkar
+            self.save_data() # Güncel hali JSON'a yaz
+            return True
+        return False
+
 # Test Bloğu
 if __name__ == "__main__":
     manager = GradeManager()
